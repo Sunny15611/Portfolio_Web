@@ -84,7 +84,7 @@ export default function Achievements() {
                   rel="noopener noreferrer"
                   className="text-purple-600 mt-2 inline-block hover:text-purple-800"
                 >
-                  Visit here
+                  Click to Visit 
                 </a>
               )}
             </motion.div>
