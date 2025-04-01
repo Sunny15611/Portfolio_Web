@@ -290,7 +290,7 @@ const skills = {
   },
   "Machine Learning & AI": {
     icon: Brain,
-    skills: ["PyTorch", "TensorFlow", "Keras", "Scikit-learn", "LangChain", "LangGraph", "Hugging Face"]
+    skills: ["ML","NLP","LLM","PyTorch", "TensorFlow", "Keras", "Scikit-learn", "LangChain", "LangGraph", "Hugging Face"]
   },
   "Backend & Cloud": {
     icon: Server,
