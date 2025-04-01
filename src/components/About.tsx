@@ -409,7 +409,7 @@ Do not include this:
     setLoading(true);
     try {
       const response = await together.chat.completions.create({
-        model: "meta-llama/Meta-Llama-3-8B-Instruct-Turbo",
+        model: "meta-llama/Llama-3.3-70B-Instruct-Turbo",
         messages: [
           { role: "system", content: SYSTEM_PROMPT },
           { role: "user", content: `Question: ${query}, Context: ${PDF_CONTEXT}` },
