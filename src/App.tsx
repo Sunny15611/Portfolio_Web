@@ -9,7 +9,8 @@ import Achievements from './/components/Achievements';
 
 function App() {
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-gray-50 bg-opacity-80 backdrop-blur-lg">
+
       <Hero />
       <About />
       <Experience />

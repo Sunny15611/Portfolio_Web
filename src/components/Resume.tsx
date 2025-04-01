@@ -1,12 +1,12 @@
 // src/components/ResumeDownload.tsx
 import React from 'react';
-import resumePdf from '../assets/deepakde-Re.pdf';
+import resumePdf from '../assets/SunnyIIT-B.pdf';
 
 const ResumeDownload: React.FC = () => {
   const handleDownload = () => {
     const link = document.createElement('a');
     link.href = resumePdf;
-    link.download = 'Deepak_Resume.pdf';
+    link.download = 'Sunny_Resume.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
