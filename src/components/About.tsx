@@ -400,7 +400,7 @@ Do not include this:
 `;
 
   const together = new Together({
-    apiKey: "your-api-key-here",
+    apiKey:  : "6241261e3ba0e424720421874778ee5a42e8247b1273ca754cbf06a513f7d3cd",
   });
 
   const handleAskQuery = async () => {
