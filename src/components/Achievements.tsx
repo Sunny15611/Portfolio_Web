@@ -4,14 +4,6 @@ import { Award } from 'lucide-react';
 const achievements = [
   {
     icon: <Award className="w-10 h-10 text-purple-600" />,
-    title: 'Authored Paper: "MM-Telco : BenchMarks and Multimodal Large Language Model for Telecom Applications"',
-    organization: 'MobiCom Conference',
-    period: '03/2025',
-    link: 'https://drive.google.com/file/d/19C2V95ARsD8f7dWhSGifp6DM-fYPm18d/view?usp=drivesdk'
-
-  },
-  {
-    icon: <Award className="w-10 h-10 text-purple-600" />,
     title: 'Paper Accepted: "What My Packet Capture Says"',
     organization: 'CODS-COMAD International Conference',
     period: '09/2024',
